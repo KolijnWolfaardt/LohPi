@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Anaren_B0430J50100AHF
+D Balun 400-3000Mhz 50/100Ohm
+K Balun, Anaren
+$ENDCMP
+#
+#End Doc Library

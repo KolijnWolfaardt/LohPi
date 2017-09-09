@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RFPA0133TR7
+D Qorvo RFPA0133TR7
+K Qorvo, RFPA0133TR7, RF, Power Amp
+$ENDCMP
+#
+$CMP SPF5043Z
+D Qorvo GaAs MMIC amplifier
+K Qorvo, SPF5043Z
+$ENDCMP
+#
+#End Doc Library

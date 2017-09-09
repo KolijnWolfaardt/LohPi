@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1612
+D MCP1612 Switching regulator, 1A
+K MCP1612, REG, regualtor
+$ENDCMP
+#
+$CMP MCP1726-3302E/SN
+D 1A LDO regulator 3.3v
+K LDO, Regulator
+$ENDCMP
+#
+$CMP MCP1824
+D 500mA LDO Regulator 3.3v
+K regulator, LDO,
+$ENDCMP
+#
+#End Doc Library
