@@ -1,7 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABRACON-OSC
+D Crystal Oscillator
+F http://www.mouser.com/ds/2/3/ASEMB-7474.pdf
+$ENDCMP
+#
 $CMP ASEMB-133.3MHZ
-D Crystal Oscillator 133.3Mhz
+D Crystal Oscillator 32.0Mhz
 F http://www.mouser.com/ds/2/3/ASEMB-7474.pdf
 $ENDCMP
 #
