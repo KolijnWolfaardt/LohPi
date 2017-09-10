@@ -3,16 +3,19 @@ EESchema-DOCLIB  Version 2.0
 $CMP MCP1612
 D MCP1612 Switching regulator, 1A
 K MCP1612, REG, regualtor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21921C.pdf
 $ENDCMP
 #
 $CMP MCP1726-3302E/SN
 D 1A LDO regulator 3.3v
-K LDO, Regulator
+K LDO, Regulator, Soic
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001936D.pdf
 $ENDCMP
 #
 $CMP MCP1824
 D 500mA LDO Regulator 3.3v
 K regulator, LDO,
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22070a.pdf
 $ENDCMP
 #
 #End Doc Library

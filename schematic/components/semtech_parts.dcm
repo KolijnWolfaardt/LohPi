@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SX1257
+D Semtech Front-End Trasceiver
+K Semtech, SC1257, RF, LoRa, Front-end
+F http://www.semtech.com/images/datasheet/sx1257.pdf
+$ENDCMP
+#
+$CMP SX1301
+D LoRa Baseband Receiver
+K SX1301, Semtech, LoRa, RF
+F http://www.semtech.com/images/datasheet/sx1301.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ASEMB-133.3MHZ
+D Crystal Oscillator 133.3Mhz
+F http://www.mouser.com/ds/2/3/ASEMB-7474.pdf
+$ENDCMP
+#
 #End Doc Library
