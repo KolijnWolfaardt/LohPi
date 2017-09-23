@@ -1,3 +1,7 @@
 (fp_lib_table
   (lib (name crystal_osc_1)(type KiCad)(uri "$(KIPRJMOD)/libraries/crystal_osc_1.pretty")(options "")(descr ""))
+  (lib (name rpi_mounting_hole)(type KiCad)(uri "$(KIPRJMOD)/libraries/rpi_mounting_hole.pretty")(options "")(descr ""))
+  (lib (name anaren_balun)(type KiCad)(uri "$(KIPRJMOD)/libraries/anaren_balun.pretty")(options "")(descr ""))
+  (lib (name murata_saw_filter)(type KiCad)(uri "$(KIPRJMOD)/libraries/murata_saw_filter.pretty")(options "")(descr ""))
+  (lib (name quorvo)(type KiCad)(uri "$(KIPRJMOD)/libraries/quorvo.pretty")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:lohpi-rescue
 LIBS:power
 LIBS:device
@@ -22,7 +22,6 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
-LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
@@ -212,45 +211,45 @@ Wire Wire Line
 Wire Wire Line
 	3500 5400 4600 5400
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J10
 U 1 1 59B4EB9A
 P 1750 6600
-F 0 "J?" H 1828 6641 50  0000 L CNN
+F 0 "J10" H 1828 6641 50  0000 L CNN
 F 1 "CONN_01X01" H 1828 6550 50  0000 L CNN
-F 2 "" H 1750 6600 50  0001 C CNN
+F 2 "rpi_mounting_hole:rpi_mounting_hole" H 1750 6600 50  0001 C CNN
 F 3 "" H 1750 6600 50  0001 C CNN
 	1    1750 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J11
 U 1 1 59B4F0CE
 P 1750 6800
-F 0 "J?" H 1828 6841 50  0000 L CNN
+F 0 "J11" H 1828 6841 50  0000 L CNN
 F 1 "CONN_01X01" H 1828 6750 50  0000 L CNN
-F 2 "" H 1750 6800 50  0001 C CNN
+F 2 "rpi_mounting_hole:rpi_mounting_hole" H 1750 6800 50  0001 C CNN
 F 3 "" H 1750 6800 50  0001 C CNN
 	1    1750 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J12
 U 1 1 59B4F26C
 P 1750 7000
-F 0 "J?" H 1828 7041 50  0000 L CNN
+F 0 "J12" H 1828 7041 50  0000 L CNN
 F 1 "CONN_01X01" H 1828 6950 50  0000 L CNN
-F 2 "" H 1750 7000 50  0001 C CNN
+F 2 "rpi_mounting_hole:rpi_mounting_hole" H 1750 7000 50  0001 C CNN
 F 3 "" H 1750 7000 50  0001 C CNN
 	1    1750 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J13
 U 1 1 59B4F40C
 P 1750 7200
-F 0 "J?" H 1828 7241 50  0000 L CNN
+F 0 "J13" H 1828 7241 50  0000 L CNN
 F 1 "CONN_01X01" H 1828 7150 50  0000 L CNN
-F 2 "" H 1750 7200 50  0001 C CNN
+F 2 "rpi_mounting_hole:rpi_mounting_hole" H 1750 7200 50  0001 C CNN
 F 3 "" H 1750 7200 50  0001 C CNN
 	1    1750 7200
 	1    0    0    -1  
