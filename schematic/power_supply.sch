@@ -22,6 +22,7 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
+LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
@@ -868,7 +869,7 @@ U 1 1 59B67F4D
 P 3550 4800
 F 0 "L1" V 3750 4800 50  0000 C CNN
 F 1 "3.3uH" V 3650 4900 50  0000 C CNN
-F 2 "" H 3550 4800 50  0001 C CNN
+F 2 "Inductors_SMD:L_0603" H 3550 4800 50  0001 C CNN
 F 3 "" H 3550 4800 50  0001 C CNN
 F 4 "1A" V 3650 4650 60  0000 C CNN "I"
 	1    3550 4800

@@ -22,6 +22,7 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
+LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
@@ -96,9 +97,9 @@ F22 "B_NSS" O R 3500 3650 60
 F23 "B_MOSI" O R 3500 3550 60 
 F24 "B_MISO" O R 3500 3450 60 
 F25 "B_SCK" O R 3500 3350 60 
-F26 "RADIO_C_CLK_OUT" O R 3500 3850 60 
-F27 "VCC_3.3v" I R 3500 5300 60 
-F28 "VCC_1.8v" I R 3500 5400 60 
+F26 "VCC_3.3v" I R 3500 5300 60 
+F27 "VCC_1.8v" I R 3500 5400 60 
+F28 "SP_CLK_IN" O R 3500 3850 60 
 $EndSheet
 $Sheet
 S 7200 850  2250 5150
@@ -256,4 +257,8 @@ F 3 "" H 1750 7200 50  0001 C CNN
 $EndComp
 Text Notes 1500 6500 0    60   ~ 0
 Mounting Holes
+NoConn ~ 1550 6600
+NoConn ~ 1550 6800
+NoConn ~ 1550 7000
+NoConn ~ 1550 7200
 $EndSCHEMATC

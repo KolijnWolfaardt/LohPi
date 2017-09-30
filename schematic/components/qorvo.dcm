@@ -3,6 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP RFPA0133TR7
 D Qorvo RFPA0133TR7
 K Qorvo, RFPA0133TR7, RF, Power Amp
+F http://www.mouser.com/ds/2/412/fpa0133_data_sheet-1112007.pdf
 $ENDCMP
 #
 $CMP SPF5043Z

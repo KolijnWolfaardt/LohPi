@@ -1,4 +1,4 @@
-update=Sat 09 Sep 2017 15:08:21 SAST
+update=Sat 23 Sep 2017 17:57:21 SAST
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,13 @@ LibName35=components/murata
 LibName36=components/qorvo
 LibName37=components/microchip
 LibName38=components/abracon
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=lohpi_schematic.pdf
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
