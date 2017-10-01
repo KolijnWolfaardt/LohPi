@@ -1543,37 +1543,6 @@ F 3 "" H 3400 6950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3400 6200 3400 6150
-Wire Wire Line
-	1450 6650 1100 6650
-Wire Wire Line
-	1100 6750 1450 6750
-Wire Wire Line
-	1450 6850 1100 6850
-Wire Wire Line
-	1100 6950 1450 6950
-Wire Wire Line
-	1450 7050 1100 7050
-Text Label 1400 6650 2    60   ~ 0
-GPIO[4]
-Text Label 1400 6750 2    60   ~ 0
-GPIO[3]
-Text Label 1400 6850 2    60   ~ 0
-GPIO[2]
-Text Label 1400 6950 2    60   ~ 0
-GPIO[1]
-Text Label 1400 7050 2    60   ~ 0
-GPIO[0]
-$Comp
-L CONN_01X05 J7
-U 1 1 59B5D7F7
-P 1650 6850
-F 0 "J7" H 1728 6891 50  0000 L CNN
-F 1 "CONN_01X05" H 1728 6800 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 1650 6850 50  0001 C CNN
-F 3 "" H 1650 6850 50  0001 C CNN
-	1    1650 6850
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1450 2950
 $Comp
 L C C36
