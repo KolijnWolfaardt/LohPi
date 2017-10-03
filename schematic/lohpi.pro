@@ -1,4 +1,4 @@
-update=Sat 23 Sep 2017 17:57:21 SAST
+update=Mon 02 Oct 2017 17:37:55 SAST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=lohpi_schematic.pdf
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=components
@@ -67,13 +77,4 @@ LibName35=components/murata
 LibName36=components/qorvo
 LibName37=components/microchip
 LibName38=components/abracon
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=lohpi_schematic.pdf
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
+LibName39=components/max-m8

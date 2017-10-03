@@ -4,4 +4,6 @@
   (lib (name anaren_balun)(type KiCad)(uri "$(KIPRJMOD)/libraries/anaren_balun.pretty")(options "")(descr ""))
   (lib (name murata_saw_filter)(type KiCad)(uri "$(KIPRJMOD)/libraries/murata_saw_filter.pretty")(options "")(descr ""))
   (lib (name quorvo)(type KiCad)(uri "$(KIPRJMOD)/libraries/quorvo.pretty")(options "")(descr ""))
+  (lib (name quectel)(type KiCad)(uri "$(KIPRJMOD)/libraries/quectel.pretty")(options "")(descr ""))
+  (lib (name max_8)(type KiCad)(uri "$(KIPRJMOD)/libraries/max_8.pretty")(options "")(descr ""))
 )

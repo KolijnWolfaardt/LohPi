@@ -36,6 +36,7 @@ LIBS:anaren
 LIBS:murata
 LIBS:qorvo
 LIBS:abracon
+LIBS:max-m8
 LIBS:lohpi-cache
 EELAYER 26 0
 EELAYER END
