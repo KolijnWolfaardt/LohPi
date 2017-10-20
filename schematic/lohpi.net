@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source "/home/kolijn/MyWork/Hobbies and Projects/Electronics/LohPi/schematic/lohpi.sch")
-    (date "Sat 14 Oct 2017 10:32:24 SAST")
-    (tool "Eeschema no-vcs-found-b6d54ac~60~ubuntu16.04.1")
+    (date "Fri 20 Oct 2017 06:50:10 SAST")
+    (tool "Eeschema no-vcs-found-e0b9a21~60~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -258,7 +258,7 @@
       (tstamp 59B6646F))
     (comp (ref L1)
       (value 3.3uH)
-      (footprint Inductors_SMD:L_0805)
+      (footprint 84332C:84332C)
       (fields
         (field (name I) 1A))
       (libsource (lib device) (part L))
@@ -755,7 +755,7 @@
     (comp (ref J7)
       (value UFL)
       (footprint hirose:u.fl)
-      (libsource (lib conn) (part Conn_01x02))
+      (libsource (lib lohpi-cache) (part Conn_01x02))
       (sheetpath (names /main_receiver/) (tstamps /59ABB2C8/))
       (tstamp 59D2C148))
     (comp (ref L14)
@@ -1395,9 +1395,7 @@
       (pins
         (pin (num 1) (name P1) (type power_in))
         (pin (num 2) (name P2) (type power_in))))
-    (libpart (lib conn) (part Conn_01x02)
-      (description "Generic connector, single row, 01x02")
-      (docs ~)
+    (libpart (lib lohpi-cache) (part Conn_01x02)
       (footprints
         (fp Connector*:*_??x*mm*)
         (fp Connector*:*1x??x*mm*)
@@ -1538,6 +1536,8 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
     (libpart (lib qorvo) (part RFPA0133TR7)
+      (description "Qorvo RFPA0133TR7")
+      (docs http://www.mouser.com/ds/2/412/fpa0133_data_sheet-1112007.pdf)
       (fields
         (field (name Reference) U)
         (field (name Value) RFPA0133TR7))
@@ -1578,6 +1578,7 @@
         (pin (num 12) (name Gnd) (type power_in))
         (pin (num 13) (name Pad) (type power_in))))
     (libpart (lib qorvo) (part SPF5043Z)
+      (description "Qorvo GaAs MMIC amplifier")
       (fields
         (field (name Reference) U)
         (field (name Value) SPF5043Z))
@@ -1587,6 +1588,8 @@
         (pin (num 3) (name RF_In) (type input))
         (pin (num 4) (name Gnd) (type power_in))))
     (libpart (lib semtech_parts) (part SX1257)
+      (description "Semtech Front-End Trasceiver")
+      (docs http://www.semtech.com/images/datasheet/sx1257.pdf)
       (footprints
         (fp QFN-32-1EP_5x5mm_Pitch0.5mm))
       (fields
@@ -1627,6 +1630,8 @@
         (pin (num 32) (name VBAT3) (type power_in))
         (pin (num 33) (name Ground) (type power_in))))
     (libpart (lib semtech_parts) (part SX1301)
+      (description "LoRa Baseband Receiver")
+      (docs http://www.semtech.com/images/datasheet/sx1301.pdf)
       (footprints
         (fp QFN-64-1EP_9x9mm_Pitch0.5mm))
       (fields
@@ -1746,20 +1751,18 @@
   (libraries
     (library (logical lohpi-rescue)
       (uri "/home/kolijn/MyWork/Hobbies and Projects/Electronics/LohPi/schematic/lohpi-rescue.lib"))
-    (library (logical microchip)
-      (uri "/home/kolijn/MyWork/Hobbies and Projects/Electronics/LohPi/schematic/components/microchip.lib"))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical anaren)
-      (uri "/home/kolijn/MyWork/Hobbies and Projects/Electronics/LohPi/schematic/components/anaren.lib"))
-    (library (logical semtech_parts)
-      (uri "/home/kolijn/MyWork/Hobbies and Projects/Electronics/LohPi/schematic/components/semtech_parts.lib"))
+    (library (logical microchip)
+      (uri "/home/kolijn/MyWork/Hobbies and Projects/Electronics/LohPi/schematic/components/microchip.lib"))
     (library (logical raspberry_pi)
       (uri "/home/kolijn/MyWork/Hobbies and Projects/Electronics/LohPi/schematic/components/raspberry_pi.lib"))
+    (library (logical semtech_parts)
+      (uri "/home/kolijn/MyWork/Hobbies and Projects/Electronics/LohPi/schematic/components/semtech_parts.lib"))
     (library (logical murata)
       (uri "/home/kolijn/MyWork/Hobbies and Projects/Electronics/LohPi/schematic/components/murata.lib"))
+    (library (logical anaren)
+      (uri "/home/kolijn/MyWork/Hobbies and Projects/Electronics/LohPi/schematic/components/anaren.lib"))
     (library (logical qorvo)
       (uri "/home/kolijn/MyWork/Hobbies and Projects/Electronics/LohPi/schematic/components/qorvo.lib"))
     (library (logical abracon)

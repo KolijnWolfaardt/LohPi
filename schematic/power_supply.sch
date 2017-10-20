@@ -2,12 +2,8 @@ EESchema Schematic File Version 3
 LIBS:lohpi-rescue
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
 LIBS:linear
 LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
@@ -22,13 +18,11 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
-LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:semtech_parts
 LIBS:raspberry_pi
 LIBS:epcos
@@ -870,7 +864,7 @@ U 1 1 59B67F4D
 P 3550 4800
 F 0 "L1" V 3750 4800 50  0000 C CNN
 F 1 "3.3uH" V 3650 4900 50  0000 C CNN
-F 2 "Inductors_SMD:L_0805" H 3550 4800 50  0001 C CNN
+F 2 "84332C:84332C" H 3550 4800 50  0001 C CNN
 F 3 "" H 3550 4800 50  0001 C CNN
 F 4 "1A" V 3650 4650 60  0000 C CNN "I"
 	1    3550 4800

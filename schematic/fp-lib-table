@@ -7,4 +7,5 @@
   (lib (name quectel)(type KiCad)(uri "$(KIPRJMOD)/libraries/quectel.pretty")(options "")(descr ""))
   (lib (name max_8)(type KiCad)(uri "$(KIPRJMOD)/libraries/max_8.pretty")(options "")(descr ""))
   (lib (name hirose)(type KiCad)(uri "$(KIPRJMOD)/libraries/hirose.pretty")(options "")(descr ""))
+  (lib (name 84332C)(type KiCad)(uri "$(KIPRJMOD)/libraries/84332C.pretty")(options "")(descr ""))
 )
