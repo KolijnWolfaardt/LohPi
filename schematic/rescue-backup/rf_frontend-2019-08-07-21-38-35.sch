@@ -1,4 +1,36 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 3
+LIBS:lohpi-rescue
+LIBS:power
+LIBS:device
+LIBS:linear
+LIBS:regul
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:semtech_parts
+LIBS:raspberry_pi
+LIBS:epcos
+LIBS:anaren
+LIBS:murata
+LIBS:qorvo
+LIBS:abracon
+LIBS:max-m8
 LIBS:lohpi-cache
 EELAYER 26 0
 EELAYER END
@@ -15,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L lohpi-rescue:SX1257 U9
+L SX1257 U9
 U 1 1 59ABCD52
 P 2250 4300
 F 0 "U9" V 2650 5050 60  0000 L CNN
@@ -26,7 +58,7 @@ F 3 "" H 1800 4750 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L lohpi-rescue:SX1257 U8
+L SX1257 U8
 U 1 1 59ABCE64
 P 2100 8000
 F 0 "U8" V 2450 8800 60  0000 L CNN
@@ -37,7 +69,7 @@ F 3 "" H 1650 8450 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR076
+L GND #PWR076
 U 1 1 59ABD0A1
 P 2900 6000
 F 0 "#PWR076" H 2900 5750 50  0001 C CNN
@@ -48,7 +80,7 @@ F 3 "" H 2900 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C39
+L C C39
 U 1 1 59ABD4D8
 P 2300 6400
 F 0 "C39" H 2415 6446 50  0000 L CNN
@@ -59,7 +91,7 @@ F 3 "" H 2300 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C41
+L C C41
 U 1 1 59ABD6D2
 P 2500 6400
 F 0 "C41" H 2615 6446 50  0000 L CNN
@@ -70,7 +102,7 @@ F 3 "" H 2500 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C43
+L C C43
 U 1 1 59ABD6F0
 P 2700 6400
 F 0 "C43" H 2815 6446 50  0000 L CNN
@@ -81,7 +113,7 @@ F 3 "" H 2700 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR077
+L GND #PWR077
 U 1 1 59ABE77B
 P 3450 7300
 F 0 "#PWR077" H 3450 7050 50  0001 C CNN
@@ -92,7 +124,7 @@ F 3 "" H 3450 7300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lohpi-rescue:C C52
+L C C52
 U 1 1 59AC02E2
 P 4650 4150
 F 0 "C52" H 4535 4104 50  0000 R CNN
@@ -103,7 +135,7 @@ F 3 "" H 4650 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:C C51
+L C C51
 U 1 1 59AC034E
 P 4650 3300
 F 0 "C51" H 4535 3254 50  0000 R CNN
@@ -114,7 +146,7 @@ F 3 "" H 4650 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR078
+L GND #PWR078
 U 1 1 59AC060B
 P 4650 3100
 F 0 "#PWR078" H 4650 2850 50  0001 C CNN
@@ -125,7 +157,7 @@ F 3 "" H 4650 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR079
+L GND #PWR079
 U 1 1 59AC063A
 P 4650 4350
 F 0 "#PWR079" H 4650 4100 50  0001 C CNN
@@ -140,7 +172,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 5950 2700 6250
 Wire Wire Line
-	2100 5950 2300 5950
+	2100 5950 2900 5950
 Wire Wire Line
 	2900 5950 2900 6000
 Wire Wire Line
@@ -165,11 +197,11 @@ Wire Wire Line
 Wire Wire Line
 	4050 3850 4250 3850
 Wire Wire Line
-	4550 3850 4650 3850
+	4550 3850 4900 3850
 Wire Wire Line
 	4650 3850 4650 4000
 Wire Wire Line
-	4550 3650 4650 3650
+	4550 3650 4900 3650
 Wire Wire Line
 	4650 3650 4650 3450
 Wire Wire Line
@@ -181,7 +213,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 3850 5750 3850
 $Comp
-L lohpi-rescue:GND #PWR080
+L GND #PWR080
 U 1 1 59AC1ECB
 P 5850 3550
 F 0 "#PWR080" H 5850 3300 50  0001 C CNN
@@ -196,7 +228,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 3650 5850 3550
 $Comp
-L lohpi-rescue:C C53
+L C C53
 U 1 1 59AC1F84
 P 6100 3750
 F 0 "C53" V 6352 3750 50  0000 C CNN
@@ -209,7 +241,7 @@ $EndComp
 Wire Wire Line
 	5750 3750 5950 3750
 $Comp
-L lohpi-rescue:R R39
+L R R39
 U 1 1 59AC250C
 P 7600 3950
 F 0 "R39" H 7670 3996 50  0000 L CNN
@@ -220,7 +252,7 @@ F 3 "" H 7600 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:R R40
+L R R40
 U 1 1 59AC27FA
 P 7800 3750
 F 0 "R40" V 8007 3750 50  0000 C CNN
@@ -231,7 +263,7 @@ F 3 "" H 7800 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lohpi-rescue:R R41
+L R R41
 U 1 1 59AC28B6
 P 8000 3950
 F 0 "R41" H 8070 3996 50  0000 L CNN
@@ -242,7 +274,7 @@ F 3 "" H 8000 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C56
+L C C56
 U 1 1 59AC291F
 P 8200 3750
 F 0 "C56" V 8452 3750 50  0000 C CNN
@@ -253,7 +285,7 @@ F 3 "" H 8200 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR081
+L GND #PWR081
 U 1 1 59AC2AAD
 P 7600 4150
 F 0 "#PWR081" H 7600 3900 50  0001 C CNN
@@ -264,7 +296,7 @@ F 3 "" H 7600 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR082
+L GND #PWR082
 U 1 1 59AC2ADE
 P 8000 4150
 F 0 "#PWR082" H 8000 3900 50  0001 C CNN
@@ -281,15 +313,15 @@ Wire Wire Line
 Wire Wire Line
 	7600 3800 7600 3750
 Wire Wire Line
-	7200 3750 7600 3750
+	7200 3750 7650 3750
 Connection ~ 7600 3750
 Wire Wire Line
-	7950 3750 8000 3750
+	7950 3750 8050 3750
 Wire Wire Line
 	8000 3800 8000 3750
 Connection ~ 8000 3750
 $Comp
-L lohpi-rescue:C C57
+L C C57
 U 1 1 59AC30B4
 P 8400 3950
 F 0 "C57" H 8515 3996 50  0000 L CNN
@@ -300,11 +332,11 @@ F 3 "" H 8400 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8350 3750 8400 3750
+	8350 3750 8450 3750
 Wire Wire Line
 	8400 3750 8400 3800
 $Comp
-L lohpi-rescue:GND #PWR083
+L GND #PWR083
 U 1 1 59AC3168
 P 8400 4150
 F 0 "#PWR083" H 8400 3900 50  0001 C CNN
@@ -317,7 +349,7 @@ $EndComp
 Wire Wire Line
 	8400 4150 8400 4100
 $Comp
-L lohpi-rescue:L L4
+L L L4
 U 1 1 59AC3356
 P 8600 3750
 F 0 "L4" V 8790 3750 50  0000 C CNN
@@ -329,7 +361,7 @@ F 3 "" H 8600 3750 50  0001 C CNN
 $EndComp
 Connection ~ 8400 3750
 $Comp
-L lohpi-rescue:C C60
+L C C60
 U 1 1 59AC394A
 P 8800 3950
 F 0 "C60" H 8915 3996 50  0000 L CNN
@@ -340,11 +372,11 @@ F 3 "" H 8800 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 3750 8800 3750
+	8750 3750 9450 3750
 Wire Wire Line
 	8800 3750 8800 3800
 $Comp
-L lohpi-rescue:GND #PWR084
+L GND #PWR084
 U 1 1 59AC39E9
 P 8800 4150
 F 0 "#PWR084" H 8800 3900 50  0001 C CNN
@@ -357,7 +389,7 @@ $EndComp
 Wire Wire Line
 	8800 4150 8800 4100
 $Comp
-L lohpi-rescue:GND #PWR085
+L GND #PWR085
 U 1 1 59AC57F7
 P 3600 3600
 F 0 "#PWR085" H 3600 3350 50  0001 C CNN
@@ -372,7 +404,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 3500 3400 3500
 $Comp
-L lohpi-rescue:GND #PWR086
+L GND #PWR086
 U 1 1 59AC5DE9
 P 3050 2300
 F 0 "#PWR086" H 3050 2050 50  0001 C CNN
@@ -383,7 +415,7 @@ F 3 "" H 3050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C40
+L C C40
 U 1 1 59AC5DEF
 P 2450 2700
 F 0 "C40" H 2565 2746 50  0000 L CNN
@@ -394,7 +426,7 @@ F 3 "" H 2450 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C42
+L C C42
 U 1 1 59AC5DF5
 P 2650 2700
 F 0 "C42" H 2765 2746 50  0000 L CNN
@@ -405,7 +437,7 @@ F 3 "" H 2650 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C44
+L C C44
 U 1 1 59AC5DFB
 P 2850 2700
 F 0 "C44" H 2965 2746 50  0000 L CNN
@@ -420,7 +452,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 2250 2850 2550
 Wire Wire Line
-	2250 2250 2450 2250
+	2250 2250 3050 2250
 Wire Wire Line
 	3050 2250 3050 2300
 Wire Wire Line
@@ -437,7 +469,7 @@ Wire Wire Line
 	2550 2950 2550 2250
 Connection ~ 2550 2250
 $Comp
-L lohpi-rescue:R R37
+L R R37
 U 1 1 59AC7670
 P 4400 3650
 F 0 "R37" V 4193 3650 50  0000 C CNN
@@ -448,7 +480,7 @@ F 3 "" H 4400 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L lohpi-rescue:R R38
+L R R38
 U 1 1 59AC771B
 P 4400 3850
 F 0 "R38" V 4193 3850 50  0000 C CNN
@@ -459,7 +491,7 @@ F 3 "" H 4400 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR087
+L GND #PWR087
 U 1 1 59AC8916
 P 5850 3950
 F 0 "#PWR087" H 5850 3700 50  0001 C CNN
@@ -470,7 +502,7 @@ F 3 "" H 5850 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR088
+L GND #PWR088
 U 1 1 59AC8985
 P 6300 3950
 F 0 "#PWR088" H 6300 3700 50  0001 C CNN
@@ -481,7 +513,7 @@ F 3 "" H 6300 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR089
+L GND #PWR089
 U 1 1 59AC8C01
 P 7200 3950
 F 0 "#PWR089" H 7200 3700 50  0001 C CNN
@@ -492,7 +524,7 @@ F 3 "" H 7200 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR090
+L GND #PWR090
 U 1 1 59AC8C3E
 P 7200 3550
 F 0 "#PWR090" H 7200 3300 50  0001 C CNN
@@ -503,7 +535,7 @@ F 3 "" H 7200 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR091
+L GND #PWR091
 U 1 1 59AC8E6F
 P 6300 3550
 F 0 "#PWR091" H 6300 3300 50  0001 C CNN
@@ -524,7 +556,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 3750 6300 3750
 $Comp
-L lohpi-rescue:Anaren_B0430J50100AHF U10
+L Anaren_B0430J50100AHF U10
 U 1 1 59AD9B53
 P 5300 3800
 F 0 "U10" H 5300 4100 60  0000 C CNN
@@ -537,7 +569,7 @@ $EndComp
 Connection ~ 4650 3850
 Connection ~ 4650 3650
 $Comp
-L lohpi-rescue:MurataSF2314E U11
+L MurataSF2314E U11
 U 1 1 59ADA3EA
 P 6750 3750
 F 0 "U11" H 6750 4137 60  0000 C CNN
@@ -549,7 +581,7 @@ F 3 "" H 7000 3750 60  0001 C CNN
 $EndComp
 Connection ~ 8800 3750
 $Comp
-L lohpi-rescue:GND #PWR092
+L GND #PWR092
 U 1 1 59ADC2CE
 P 9400 3650
 F 0 "#PWR092" H 9400 3400 50  0001 C CNN
@@ -562,14 +594,14 @@ $EndComp
 Wire Wire Line
 	9400 3650 9450 3650
 Wire Wire Line
-	10750 3750 10850 3750
+	10750 3750 11150 3750
 Wire Wire Line
 	10750 3850 10850 3850
 Wire Wire Line
-	10850 3750 10850 3850
+	10850 3750 10850 3950
 Connection ~ 10850 3750
 $Comp
-L lohpi-rescue:L L8
+L L L8
 U 1 1 59ADF2ED
 P 11300 3750
 F 0 "L8" V 11490 3750 50  0000 C CNN
@@ -580,7 +612,7 @@ F 3 "" H 11300 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lohpi-rescue:L L7
+L L L7
 U 1 1 59ADFC0E
 P 10850 4100
 F 0 "L7" H 10903 4146 50  0000 L CNN
@@ -591,7 +623,7 @@ F 3 "" H 10850 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C72
+L C C72
 U 1 1 59AE063D
 P 11100 4000
 F 0 "C72" H 11215 4046 50  0000 L CNN
@@ -602,7 +634,7 @@ F 3 "" H 11100 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C74
+L C C74
 U 1 1 59AE06D5
 P 11600 4000
 F 0 "C74" H 11715 4046 50  0000 L CNN
@@ -613,7 +645,7 @@ F 3 "" H 11600 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11450 3750 11600 3750
+	11450 3750 11650 3750
 Wire Wire Line
 	11600 3850 11600 3750
 Connection ~ 11600 3750
@@ -621,7 +653,7 @@ Wire Wire Line
 	11100 3850 11100 3750
 Connection ~ 11100 3750
 $Comp
-L lohpi-rescue:GND #PWR093
+L GND #PWR093
 U 1 1 59AE12C4
 P 11100 4250
 F 0 "#PWR093" H 11100 4000 50  0001 C CNN
@@ -632,7 +664,7 @@ F 3 "" H 11100 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR094
+L GND #PWR094
 U 1 1 59AE1861
 P 11600 4250
 F 0 "#PWR094" H 11600 4000 50  0001 C CNN
@@ -647,7 +679,7 @@ Wire Wire Line
 Wire Wire Line
 	11100 4150 11100 4250
 $Comp
-L lohpi-rescue:C C75
+L C C75
 U 1 1 59AE21E2
 P 11800 3750
 F 0 "C75" V 11548 3750 50  0000 C CNN
@@ -658,7 +690,7 @@ F 3 "" H 11800 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L lohpi-rescue:MurataSF2314E U15
+L MurataSF2314E U15
 U 1 1 59AE2450
 P 12450 3750
 F 0 "U15" H 12450 4137 60  0000 C CNN
@@ -672,7 +704,7 @@ Connection ~ 10850 3850
 Wire Wire Line
 	11950 3750 12000 3750
 $Comp
-L lohpi-rescue:GND #PWR095
+L GND #PWR095
 U 1 1 59AE4ED8
 P 12000 3950
 F 0 "#PWR095" H 12000 3700 50  0001 C CNN
@@ -683,7 +715,7 @@ F 3 "" H 12000 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR096
+L GND #PWR096
 U 1 1 59AE4F25
 P 12000 3550
 F 0 "#PWR096" H 12000 3300 50  0001 C CNN
@@ -694,7 +726,7 @@ F 3 "" H 12000 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR097
+L GND #PWR097
 U 1 1 59AE51C4
 P 12900 3550
 F 0 "#PWR097" H 12900 3300 50  0001 C CNN
@@ -705,7 +737,7 @@ F 3 "" H 12900 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR098
+L GND #PWR098
 U 1 1 59AE5211
 P 12900 3950
 F 0 "#PWR098" H 12900 3700 50  0001 C CNN
@@ -724,7 +756,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 3850 12000 3950
 $Comp
-L lohpi-rescue:C C76
+L C C76
 U 1 1 59AE650A
 P 13200 3750
 F 0 "C76" H 13315 3796 50  0000 L CNN
@@ -737,7 +769,7 @@ $EndComp
 Wire Wire Line
 	12900 3750 13050 3750
 $Comp
-L lohpi-rescue:RFSW1012 U16
+L RFSW1012 U16
 U 1 1 59AE7243
 P 12550 5950
 F 0 "U16" H 12800 5500 60  0000 L CNN
@@ -758,7 +790,7 @@ RF1
 Wire Wire Line
 	12550 6800 12550 6500
 $Comp
-L lohpi-rescue:GND #PWR099
+L GND #PWR099
 U 1 1 59AE8F1F
 P 12450 6550
 F 0 "#PWR099" H 12450 6300 50  0001 C CNN
@@ -769,7 +801,7 @@ F 3 "" H 12450 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0100
+L GND #PWR0100
 U 1 1 59AE94A2
 P 12650 6550
 F 0 "#PWR0100" H 12650 6300 50  0001 C CNN
@@ -784,7 +816,7 @@ Wire Wire Line
 Wire Wire Line
 	12650 6500 12650 6550
 $Comp
-L lohpi-rescue:GND #PWR0101
+L GND #PWR0101
 U 1 1 59AE9CE3
 P 11900 6050
 F 0 "#PWR0101" H 11900 5800 50  0001 C CNN
@@ -795,7 +827,7 @@ F 3 "" H 11900 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0102
+L GND #PWR0102
 U 1 1 59AEA42D
 P 11900 5850
 F 0 "#PWR0102" H 11900 5600 50  0001 C CNN
@@ -812,7 +844,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 5950 11500 5950
 $Comp
-L lohpi-rescue:CONN_01X02-RESCUE-lohpi J9
+L CONN_01X02-RESCUE-lohpi J9
 U 1 1 59AECCDD
 P 15300 7000
 AR Path="/59AECCDD" Ref="J9"  Part="1" 
@@ -825,7 +857,7 @@ F 3 "" H 15300 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C77
+L C C77
 U 1 1 59AF04D8
 P 13450 6950
 F 0 "C77" V 13198 6950 50  0000 C CNN
@@ -836,7 +868,7 @@ F 3 "" H 13450 6950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L lohpi-rescue:MurataSF2314E U17
+L MurataSF2314E U17
 U 1 1 59AF04DE
 P 14100 6950
 F 0 "U17" H 14100 7337 60  0000 C CNN
@@ -849,7 +881,7 @@ $EndComp
 Wire Wire Line
 	13600 6950 13650 6950
 $Comp
-L lohpi-rescue:GND #PWR0103
+L GND #PWR0103
 U 1 1 59AF04E5
 P 13650 7150
 F 0 "#PWR0103" H 13650 6900 50  0001 C CNN
@@ -860,7 +892,7 @@ F 3 "" H 13650 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0104
+L GND #PWR0104
 U 1 1 59AF04EB
 P 13650 6750
 F 0 "#PWR0104" H 13650 6500 50  0001 C CNN
@@ -871,7 +903,7 @@ F 3 "" H 13650 6750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0105
+L GND #PWR0105
 U 1 1 59AF04F1
 P 14550 6750
 F 0 "#PWR0105" H 14550 6500 50  0001 C CNN
@@ -882,7 +914,7 @@ F 3 "" H 14550 6750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0106
+L GND #PWR0106
 U 1 1 59AF04F7
 P 14550 7150
 F 0 "#PWR0106" H 14550 6900 50  0001 C CNN
@@ -907,7 +939,7 @@ Wire Wire Line
 Wire Wire Line
 	13100 6050 13200 6050
 $Comp
-L lohpi-rescue:GND #PWR0107
+L GND #PWR0107
 U 1 1 59AF14E2
 P 12450 5300
 F 0 "#PWR0107" H 12450 5050 50  0001 C CNN
@@ -918,7 +950,7 @@ F 3 "" H 12450 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0108
+L GND #PWR0108
 U 1 1 59AF20A8
 P 12650 5300
 F 0 "#PWR0108" H 12650 5050 50  0001 C CNN
@@ -939,7 +971,7 @@ Wire Wire Line
 Text Label 12050 5050 0    60   ~ 0
 RF_2
 $Comp
-L lohpi-rescue:GND #PWR0109
+L GND #PWR0109
 U 1 1 59AF4C8E
 P 15000 7150
 F 0 "#PWR0109" H 15000 6900 50  0001 C CNN
@@ -958,7 +990,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 6950 11500 5950
 $Comp
-L lohpi-rescue:MurataSF2314E U12
+L MurataSF2314E U12
 U 1 1 59B02676
 P 7400 7600
 F 0 "U12" H 7400 7987 60  0000 C CNN
@@ -971,7 +1003,7 @@ $EndComp
 Wire Wire Line
 	6650 7600 6950 7600
 $Comp
-L lohpi-rescue:GND #PWR0110
+L GND #PWR0110
 U 1 1 59B04D19
 P 6900 7350
 F 0 "#PWR0110" H 6900 7100 50  0001 C CNN
@@ -982,7 +1014,7 @@ F 3 "" H 6900 7350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0111
+L GND #PWR0111
 U 1 1 59B04D7A
 P 7900 7350
 F 0 "#PWR0111" H 7900 7100 50  0001 C CNN
@@ -993,7 +1025,7 @@ F 3 "" H 7900 7350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0112
+L GND #PWR0112
 U 1 1 59B04DDB
 P 7900 7850
 F 0 "#PWR0112" H 7900 7600 50  0001 C CNN
@@ -1004,7 +1036,7 @@ F 3 "" H 7900 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0113
+L GND #PWR0113
 U 1 1 59B0539C
 P 6900 7850
 F 0 "#PWR0113" H 6900 7600 50  0001 C CNN
@@ -1031,7 +1063,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 7700 7900 7850
 $Comp
-L lohpi-rescue:SPF5043Z U13
+L SPF5043Z U13
 U 1 1 59B05F89
 P 9800 7700
 F 0 "U13" H 9800 8137 60  0000 C CNN
@@ -1042,7 +1074,7 @@ F 3 "" H 9800 7700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0114
+L GND #PWR0114
 U 1 1 59B07061
 P 9200 7950
 F 0 "#PWR0114" H 9200 7700 50  0001 C CNN
@@ -1057,7 +1089,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 7800 9300 7800
 $Comp
-L lohpi-rescue:GND #PWR0115
+L GND #PWR0115
 U 1 1 59B0718B
 P 10400 7600
 F 0 "#PWR0115" H 10400 7350 50  0001 C CNN
@@ -1072,7 +1104,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 7800 10400 7800
 $Comp
-L lohpi-rescue:C C68
+L C C68
 U 1 1 59B07CA8
 P 10550 7800
 F 0 "C68" V 10298 7800 50  0000 C CNN
@@ -1087,7 +1119,7 @@ Wire Wire Line
 Text Label 10750 7800 0    60   ~ 0
 RF_2
 $Comp
-L lohpi-rescue:C C58
+L C C58
 U 1 1 59B0B812
 P 8750 7600
 F 0 "C58" V 8498 7600 50  0000 C CNN
@@ -1098,9 +1130,9 @@ F 3 "" H 8750 7600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8900 7600 9000 7600
+	8900 7600 9300 7600
 $Comp
-L lohpi-rescue:L L5
+L L L5
 U 1 1 59B0C60B
 P 9000 8200
 F 0 "L5" H 9053 8246 50  0000 L CNN
@@ -1111,7 +1143,7 @@ F 3 "" H 9000 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C61
+L C C61
 U 1 1 59B0C9FF
 P 9000 9150
 F 0 "C61" H 8885 9104 50  0000 R CNN
@@ -1122,7 +1154,7 @@ F 3 "" H 9000 9150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:C C64
+L C C64
 U 1 1 59B0D02A
 P 9450 9150
 F 0 "C64" H 9335 9104 50  0000 R CNN
@@ -1133,7 +1165,7 @@ F 3 "" H 9450 9150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0116
+L GND #PWR0116
 U 1 1 59B0D7D8
 P 9000 9400
 F 0 "#PWR0116" H 9000 9150 50  0001 C CNN
@@ -1148,7 +1180,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 9300 9450 9300
 Wire Wire Line
-	8300 9000 9000 9000
+	8300 9000 9450 9000
 Wire Wire Line
 	9000 9000 9000 8350
 Wire Wire Line
@@ -1160,7 +1192,7 @@ LNA_EN_A
 Text HLabel 13200 5950 2    60   Input ~ 0
 RADIO_EN_A
 $Comp
-L lohpi-rescue:C C78
+L C C78
 U 1 1 59B1781C
 P 14050 6050
 F 0 "C78" H 13935 6004 50  0000 R CNN
@@ -1171,7 +1203,7 @@ F 3 "" H 14050 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0118
+L GND #PWR0118
 U 1 1 59B18219
 P 14050 6250
 F 0 "#PWR0118" H 14050 6000 50  0001 C CNN
@@ -1186,7 +1218,7 @@ Wire Wire Line
 Wire Wire Line
 	14050 5850 14050 5900
 $Comp
-L lohpi-rescue:L L6
+L L L6
 U 1 1 59B1A9AE
 P 10150 1850
 F 0 "L6" H 10202 1896 50  0000 L CNN
@@ -1197,7 +1229,7 @@ F 3 "" H 10150 1850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:R R48
+L R R48
 U 1 1 59B1BBAC
 P 11100 2200
 F 0 "R48" V 10893 2200 50  0000 C CNN
@@ -1208,7 +1240,7 @@ F 3 "" H 11100 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L lohpi-rescue:C C69
+L C C69
 U 1 1 59B1D12B
 P 10700 2400
 F 0 "C69" H 10585 2354 50  0000 R CNN
@@ -1219,7 +1251,7 @@ F 3 "" H 10700 2400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0119
+L GND #PWR0119
 U 1 1 59B1E0D2
 P 10700 2600
 F 0 "#PWR0119" H 10700 2350 50  0001 C CNN
@@ -1230,7 +1262,7 @@ F 3 "" H 10700 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10250 2200 10700 2200
+	10250 2200 10950 2200
 Wire Wire Line
 	10700 2250 10700 2200
 Connection ~ 10700 2200
@@ -1241,7 +1273,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 3050 10150 2000
 $Comp
-L lohpi-rescue:R R47
+L R R47
 U 1 1 59B25012
 P 10150 1150
 F 0 "R47" H 10080 1104 50  0000 R CNN
@@ -1252,7 +1284,7 @@ F 3 "" H 10150 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:C C66
+L C C66
 U 1 1 59B250F1
 P 10400 1550
 F 0 "C66" H 10285 1504 50  0000 R CNN
@@ -1263,7 +1295,7 @@ F 3 "" H 10400 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:C C70
+L C C70
 U 1 1 59B25183
 P 10850 1550
 F 0 "C70" H 10735 1504 50  0000 R CNN
@@ -1274,12 +1306,12 @@ F 3 "" H 10850 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10150 1300 10150 1350
+	10150 1300 10150 1700
 Connection ~ 10150 1350
 Wire Wire Line
 	10400 1400 10400 1350
 $Comp
-L lohpi-rescue:GND #PWR0120
+L GND #PWR0120
 U 1 1 59B25C6F
 P 10400 1750
 F 0 "#PWR0120" H 10400 1500 50  0001 C CNN
@@ -1290,7 +1322,7 @@ F 3 "" H 10400 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0121
+L GND #PWR0121
 U 1 1 59B2629A
 P 10850 1750
 F 0 "#PWR0121" H 10850 1500 50  0001 C CNN
@@ -1307,12 +1339,12 @@ Wire Wire Line
 Wire Wire Line
 	10850 1350 10850 1400
 Wire Wire Line
-	10150 1350 10400 1350
+	10150 1350 10850 1350
 Connection ~ 10400 1350
 Text HLabel 8950 4750 0    60   Input ~ 0
 PA_EN_A
 $Comp
-L lohpi-rescue:R R46
+L R R46
 U 1 1 59B2B1ED
 P 9150 4750
 F 0 "R46" V 9357 4750 50  0000 C CNN
@@ -1323,7 +1355,7 @@ F 3 "" H 9150 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lohpi-rescue:C C63
+L C C63
 U 1 1 59B2B35C
 P 9400 5000
 F 0 "C63" H 9515 5046 50  0000 L CNN
@@ -1334,7 +1366,7 @@ F 3 "" H 9400 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C65
+L C C65
 U 1 1 59B2B4D4
 P 9850 5000
 F 0 "C65" H 9965 5046 50  0000 L CNN
@@ -1345,7 +1377,7 @@ F 3 "" H 9850 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0122
+L GND #PWR0122
 U 1 1 59B2B64F
 P 9400 5200
 F 0 "#PWR0122" H 9400 4950 50  0001 C CNN
@@ -1356,7 +1388,7 @@ F 3 "" H 9400 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0123
+L GND #PWR0123
 U 1 1 59B2B746
 P 9850 5200
 F 0 "#PWR0123" H 9850 4950 50  0001 C CNN
@@ -1373,7 +1405,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 4750 9000 4750
 Wire Wire Line
-	9300 4750 9400 4750
+	9300 4750 10050 4750
 Wire Wire Line
 	9400 4750 9400 4850
 Wire Wire Line
@@ -1383,7 +1415,7 @@ Wire Wire Line
 	10050 4750 10050 4350
 Connection ~ 9850 4750
 $Comp
-L lohpi-rescue:R R44
+L R R44
 U 1 1 59B2D76C
 P 8550 2400
 F 0 "R44" V 8757 2400 50  0000 C CNN
@@ -1394,7 +1426,7 @@ F 3 "" H 8550 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lohpi-rescue:C C59
+L C C59
 U 1 1 59B2D772
 P 8800 2650
 F 0 "C59" H 8915 2696 50  0000 L CNN
@@ -1405,7 +1437,7 @@ F 3 "" H 8800 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C62
+L C C62
 U 1 1 59B2D778
 P 9250 2650
 F 0 "C62" H 9365 2696 50  0000 L CNN
@@ -1416,7 +1448,7 @@ F 3 "" H 9250 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0124
+L GND #PWR0124
 U 1 1 59B2D77E
 P 8800 2850
 F 0 "#PWR0124" H 8800 2600 50  0001 C CNN
@@ -1427,7 +1459,7 @@ F 3 "" H 8800 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0125
+L GND #PWR0125
 U 1 1 59B2D784
 P 9250 2850
 F 0 "#PWR0125" H 9250 2600 50  0001 C CNN
@@ -1444,7 +1476,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 2400 8400 2400
 Wire Wire Line
-	8700 2400 8800 2400
+	8700 2400 9950 2400
 Wire Wire Line
 	8800 2400 8800 2500
 Wire Wire Line
@@ -1458,7 +1490,7 @@ Wire Wire Line
 Text HLabel 11800 2800 2    60   Input ~ 0
 PA_G8
 $Comp
-L lohpi-rescue:C C73
+L C C73
 U 1 1 59B3729F
 P 11350 3000
 F 0 "C73" H 11235 2954 50  0000 R CNN
@@ -1469,7 +1501,7 @@ F 3 "" H 11350 3000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:R R49
+L R R49
 U 1 1 59B37357
 P 11550 2800
 F 0 "R49" V 11343 2800 50  0000 C CNN
@@ -1480,7 +1512,7 @@ F 3 "" H 11550 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0126
+L GND #PWR0126
 U 1 1 59B376FC
 P 11350 3200
 F 0 "#PWR0126" H 11350 2950 50  0001 C CNN
@@ -1495,7 +1527,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 3550 11000 2800
 Wire Wire Line
-	11000 2800 11350 2800
+	11000 2800 11400 2800
 Wire Wire Line
 	11350 2850 11350 2800
 Connection ~ 11350 2800
@@ -1508,7 +1540,7 @@ Wire Wire Line
 Wire Wire Line
 	10700 2600 10700 2550
 $Comp
-L lohpi-rescue:C C71
+L C C71
 U 1 1 59B38F15
 P 10850 5000
 F 0 "C71" H 10735 4954 50  0000 R CNN
@@ -1519,7 +1551,7 @@ F 3 "" H 10850 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:C C67
+L C C67
 U 1 1 59B39CF2
 P 10400 5000
 F 0 "C67" H 10285 4954 50  0000 R CNN
@@ -1530,7 +1562,7 @@ F 3 "" H 10400 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0127
+L GND #PWR0127
 U 1 1 59B3A0A7
 P 10400 5200
 F 0 "#PWR0127" H 10400 4950 50  0001 C CNN
@@ -1541,7 +1573,7 @@ F 3 "" H 10400 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0128
+L GND #PWR0128
 U 1 1 59B3A136
 P 10850 5200
 F 0 "#PWR0128" H 10850 4950 50  0001 C CNN
@@ -1594,7 +1626,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 7800 1450 7800
 $Comp
-L lohpi-rescue:GND #PWR0129
+L GND #PWR0129
 U 1 1 59AF9106
 P 1300 7500
 F 0 "#PWR0129" H 1300 7250 50  0001 C CNN
@@ -1609,11 +1641,11 @@ Wire Wire Line
 Wire Wire Line
 	1350 7600 1350 7500
 Wire Wire Line
-	1300 7500 1350 7500
+	1300 7500 1450 7500
 Connection ~ 1350 7500
 NoConn ~ 1450 7400
 $Comp
-L lohpi-rescue:GND #PWR0130
+L GND #PWR0130
 U 1 1 59B04595
 P 3450 7600
 F 0 "#PWR0130" H 3450 7350 50  0001 C CNN
@@ -1626,7 +1658,7 @@ $EndComp
 Wire Wire Line
 	3450 7600 3250 7600
 $Comp
-L lohpi-rescue:C C38
+L C C38
 U 1 1 59B07D7D
 P 2150 2600
 F 0 "C38" H 2265 2646 50  0000 L CNN
@@ -1645,7 +1677,7 @@ Wire Wire Line
 Text Label 1600 2350 0    60   ~ 0
 32Mhz_CLK
 $Comp
-L lohpi-rescue:C C80
+L C C80
 U 1 1 59B0A5C2
 P 2000 6300
 F 0 "C80" H 2115 6346 50  0000 L CNN
@@ -1668,7 +1700,7 @@ Wire Wire Line
 Connection ~ 2300 5950
 NoConn ~ 2200 6650
 $Comp
-L lohpi-rescue:GND #PWR0131
+L GND #PWR0131
 U 1 1 59B0C59B
 P 3600 3900
 F 0 "#PWR0131" H 3600 3650 50  0001 C CNN
@@ -1681,7 +1713,7 @@ $EndComp
 Wire Wire Line
 	3600 3900 3400 3900
 $Comp
-L lohpi-rescue:GND #PWR0132
+L GND #PWR0132
 U 1 1 59B0C76E
 P 3600 4100
 F 0 "#PWR0132" H 3600 3850 50  0001 C CNN
@@ -1694,7 +1726,7 @@ $EndComp
 Wire Wire Line
 	3600 4100 3400 4100
 $Comp
-L lohpi-rescue:GND #PWR0133
+L GND #PWR0133
 U 1 1 59B0CF68
 P 3450 7800
 F 0 "#PWR0133" H 3450 7550 50  0001 C CNN
@@ -1707,11 +1739,11 @@ $EndComp
 Wire Wire Line
 	3450 7800 3250 7800
 Wire Wire Line
-	600  7900 1350 7900
+	600  7900 1450 7900
 Wire Wire Line
-	700  4200 1450 4200
+	700  4200 1600 4200
 $Comp
-L lohpi-rescue:GND #PWR0134
+L GND #PWR0134
 U 1 1 59B12852
 P 1450 4600
 F 0 "#PWR0134" H 1450 4350 50  0001 C CNN
@@ -1727,7 +1759,7 @@ Wire Wire Line
 	1450 4250 1450 4200
 Connection ~ 1450 4200
 $Comp
-L lohpi-rescue:C C34
+L C C34
 U 1 1 59B1398F
 P 1350 8100
 F 0 "C34" H 1465 8146 50  0000 L CNN
@@ -1738,7 +1770,7 @@ F 3 "" H 1350 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0135
+L GND #PWR0135
 U 1 1 59B13995
 P 1350 8300
 F 0 "#PWR0135" H 1350 8050 50  0001 C CNN
@@ -1754,7 +1786,7 @@ Wire Wire Line
 	1350 7950 1350 7900
 Connection ~ 1350 7900
 $Comp
-L lohpi-rescue:C C35
+L C C35
 U 1 1 59B13DC2
 P 1450 4400
 F 0 "C35" H 1565 4446 50  0000 L CNN
@@ -1765,7 +1797,7 @@ F 3 "" H 1450 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C54
+L C C54
 U 1 1 59B1AEBE
 P 6500 7600
 F 0 "C54" V 6248 7600 50  0000 C CNN
@@ -1780,7 +1812,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 7600 6350 7600
 $Comp
-L lohpi-rescue:C C46
+L C C46
 U 1 1 59B22596
 P 3550 8150
 F 0 "C46" H 3665 8196 50  0000 L CNN
@@ -1791,7 +1823,7 @@ F 3 "" H 3550 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0138
+L GND #PWR0138
 U 1 1 59B2259C
 P 3550 8350
 F 0 "#PWR0138" H 3550 8100 50  0001 C CNN
@@ -1808,7 +1840,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 7900 3550 8000
 $Comp
-L lohpi-rescue:R R43
+L R R43
 U 1 1 59B285D2
 P 8350 7600
 F 0 "R43" V 8143 7600 50  0000 C CNN
@@ -1819,7 +1851,7 @@ F 3 "" H 8350 7600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L lohpi-rescue:R R45
+L R R45
 U 1 1 59B286D9
 P 8550 7800
 F 0 "R45" H 8480 7754 50  0000 R CNN
@@ -1830,7 +1862,7 @@ F 3 "" H 8550 7800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:R R42
+L R R42
 U 1 1 59B287CF
 P 8150 7800
 F 0 "R42" H 8080 7754 50  0000 R CNN
@@ -1841,7 +1873,7 @@ F 3 "" H 8150 7800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0139
+L GND #PWR0139
 U 1 1 59B2887D
 P 8150 8000
 F 0 "#PWR0139" H 8150 7750 50  0001 C CNN
@@ -1852,7 +1884,7 @@ F 3 "" H 8150 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0140
+L GND #PWR0140
 U 1 1 59B289A8
 P 8550 8000
 F 0 "#PWR0140" H 8550 7750 50  0001 C CNN
@@ -1867,17 +1899,17 @@ Wire Wire Line
 Wire Wire Line
 	8150 7950 8150 8000
 Wire Wire Line
-	7850 7600 8150 7600
+	7850 7600 8200 7600
 Wire Wire Line
 	8150 7600 8150 7650
 Connection ~ 8150 7600
 Wire Wire Line
-	8500 7600 8550 7600
+	8500 7600 8600 7600
 Wire Wire Line
 	8550 7650 8550 7600
 Connection ~ 8550 7600
 $Comp
-L lohpi-rescue:C C48
+L C C48
 U 1 1 59B42E31
 P 3700 4450
 F 0 "C48" H 3815 4496 50  0000 L CNN
@@ -1888,7 +1920,7 @@ F 3 "" H 3700 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0141
+L GND #PWR0141
 U 1 1 59B42E37
 P 3700 4650
 F 0 "#PWR0141" H 3700 4400 50  0001 C CNN
@@ -2009,7 +2041,7 @@ VCC_PA_A
 Text Label 11000 4700 0    60   ~ 0
 VCC_PA_A
 $Comp
-L lohpi-rescue:RFPA0133TR7 U14
+L RFPA0133TR7 U14
 U 1 1 59ADB30A
 P 10100 3700
 F 0 "U14" H 9500 3300 60  0000 L CNN
@@ -2022,23 +2054,24 @@ $EndComp
 Wire Wire Line
 	10400 4850 10400 4700
 Wire Wire Line
-	10850 4250 10850 4700
+	10850 4250 10850 4850
 Wire Wire Line
-	10400 4700 10850 4700
+	10400 4700 11450 4700
 Connection ~ 10850 4700
 Text Label 750  4200 0    60   ~ 0
 VCC_RADIO_A
 Wire Wire Line
 	3450 2850 3450 3500
+Connection ~ 3450 3500
 Wire Wire Line
 	2750 2950 2750 2850
 Wire Wire Line
-	2750 2850 3450 2850
+	2750 2850 4100 2850
 Text Label 3550 2850 0    60   ~ 0
 VCC_RADIO_A
 Connection ~ 3450 2850
 $Comp
-L lohpi-rescue:C C47
+L C C47
 U 1 1 59B3B54C
 P 3700 3100
 F 0 "C47" H 3815 3146 50  0000 L CNN
@@ -2049,7 +2082,7 @@ F 3 "" H 3700 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C50
+L C C50
 U 1 1 59B3B632
 P 4050 3100
 F 0 "C50" H 4165 3146 50  0000 L CNN
@@ -2060,7 +2093,7 @@ F 3 "" H 4050 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0142
+L GND #PWR0142
 U 1 1 59B3B81A
 P 3700 3300
 F 0 "#PWR0142" H 3700 3050 50  0001 C CNN
@@ -2071,7 +2104,7 @@ F 3 "" H 3700 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0143
+L GND #PWR0143
 U 1 1 59B3B8BB
 P 4050 3300
 F 0 "#PWR0143" H 4050 3050 50  0001 C CNN
@@ -2094,11 +2127,12 @@ Connection ~ 4050 2850
 Wire Wire Line
 	2600 6650 2600 6550
 Wire Wire Line
-	2600 6550 3300 6550
+	2600 6550 3800 6550
 Wire Wire Line
 	3300 7200 3300 6550
+Connection ~ 3300 7200
 $Comp
-L lohpi-rescue:C C45
+L C C45
 U 1 1 59B3F256
 P 3450 6750
 F 0 "C45" H 3565 6796 50  0000 L CNN
@@ -2109,7 +2143,7 @@ F 3 "" H 3450 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C49
+L C C49
 U 1 1 59B3F25C
 P 3800 6750
 F 0 "C49" H 3915 6796 50  0000 L CNN
@@ -2120,7 +2154,7 @@ F 3 "" H 3800 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0144
+L GND #PWR0144
 U 1 1 59B3F262
 P 3450 6950
 F 0 "#PWR0144" H 3450 6700 50  0001 C CNN
@@ -2131,7 +2165,7 @@ F 3 "" H 3450 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0145
+L GND #PWR0145
 U 1 1 59B3F268
 P 3800 6950
 F 0 "#PWR0145" H 3800 6700 50  0001 C CNN
@@ -2166,7 +2200,7 @@ SP_CLK_IN
 NoConn ~ 3250 7400
 NoConn ~ 3250 7500
 $Comp
-L lohpi-rescue:GND #PWR0146
+L GND #PWR0146
 U 1 1 59B4B3A9
 P 2150 7700
 F 0 "#PWR0146" H 2150 7450 50  0001 C CNN
@@ -2179,7 +2213,7 @@ $EndComp
 Wire Wire Line
 	2150 7700 2150 7650
 $Comp
-L lohpi-rescue:GND #PWR0147
+L GND #PWR0147
 U 1 1 59B407FD
 P 2300 4000
 F 0 "#PWR0147" H 2300 3750 50  0001 C CNN
@@ -2192,7 +2226,7 @@ $EndComp
 Wire Wire Line
 	2300 4000 2300 3950
 $Comp
-L lohpi-rescue:ABRACON-OSC X2
+L ABRACON-OSC X2
 U 1 1 59B585C5
 P 2800 10100
 F 0 "X2" H 2800 10487 60  0000 C CNN
@@ -2203,7 +2237,7 @@ F 3 "" H 2800 10150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0148
+L GND #PWR0148
 U 1 1 59B58D1B
 P 2150 10300
 F 0 "#PWR0148" H 2150 10050 50  0001 C CNN
@@ -2234,7 +2268,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 3800 3400 3800
 $Comp
-L lohpi-rescue:GND #PWR0149
+L GND #PWR0149
 U 1 1 59BEDAD8
 P 10750 4200
 F 0 "#PWR0149" H 10750 3950 50  0001 C CNN
@@ -2247,7 +2281,7 @@ $EndComp
 Wire Wire Line
 	10750 4200 10750 4100
 $Comp
-L lohpi-rescue:GND #PWR0150
+L GND #PWR0150
 U 1 1 59BEE300
 P 13100 6400
 F 0 "#PWR0150" H 13100 6150 50  0001 C CNN
@@ -2264,7 +2298,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 4000 4350 7450
 $Comp
-L lohpi-rescue:L L2
+L L L2
 U 1 1 59CAC09D
 P 5500 7450
 F 0 "L2" V 5690 7450 50  0000 C CNN
@@ -2275,7 +2309,7 @@ F 3 "" H 5500 7450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lohpi-rescue:L L3
+L L L3
 U 1 1 59CAC32E
 P 5500 7750
 F 0 "L3" V 5322 7750 50  0000 C CNN
@@ -2286,7 +2320,7 @@ F 3 "" H 5500 7750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L lohpi-rescue:C C55
+L C C55
 U 1 1 59CAC4E3
 P 5250 7200
 F 0 "C55" H 5365 7246 50  0000 L CNN
@@ -2297,7 +2331,7 @@ F 3 "" H 5250 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:C C81
+L C C81
 U 1 1 59CAC620
 P 5250 8000
 F 0 "C81" H 5365 8046 50  0000 L CNN
@@ -2308,7 +2342,7 @@ F 3 "" H 5250 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:R R50
+L R R50
 U 1 1 59CAC894
 P 5050 7600
 F 0 "R50" H 5120 7646 50  0000 L CNN
@@ -2321,17 +2355,17 @@ $EndComp
 Wire Wire Line
 	5250 7850 5250 7750
 Wire Wire Line
-	4350 7750 5050 7750
+	4350 7750 5350 7750
 Connection ~ 5250 7750
 Wire Wire Line
-	4350 7450 5050 7450
+	4350 7450 5350 7450
 Wire Wire Line
 	5250 7350 5250 7450
 Connection ~ 5250 7450
 Wire Wire Line
 	5650 7450 5950 7450
 Wire Wire Line
-	5950 7450 5950 7600
+	5950 7450 5950 7750
 Wire Wire Line
 	5950 7750 5650 7750
 Connection ~ 5950 7600
@@ -2340,7 +2374,7 @@ Wire Wire Line
 Connection ~ 5050 7750
 Connection ~ 5050 7450
 $Comp
-L lohpi-rescue:GND #PWR0136
+L GND #PWR0136
 U 1 1 59CAE6AB
 P 5250 8200
 F 0 "#PWR0136" H 5250 7950 50  0001 C CNN
@@ -2351,7 +2385,7 @@ F 3 "" H 5250 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:GND #PWR0137
+L GND #PWR0137
 U 1 1 59CAEF8C
 P 5250 7000
 F 0 "#PWR0137" H 5250 6750 50  0001 C CNN
@@ -2369,94 +2403,4 @@ Text Label 13250 5850 0    60   ~ 0
 VCC_RADIO_A
 Wire Wire Line
 	13100 5850 14050 5850
-Wire Wire Line
-	2700 5950 2900 5950
-Wire Wire Line
-	2500 5950 2700 5950
-Wire Wire Line
-	2400 5950 2500 5950
-Wire Wire Line
-	7600 3750 7650 3750
-Wire Wire Line
-	8000 3750 8050 3750
-Wire Wire Line
-	8400 3750 8450 3750
-Wire Wire Line
-	2850 2250 3050 2250
-Wire Wire Line
-	2650 2250 2850 2250
-Wire Wire Line
-	2550 2250 2650 2250
-Wire Wire Line
-	4650 3850 4900 3850
-Wire Wire Line
-	4650 3650 4900 3650
-Wire Wire Line
-	8800 3750 9450 3750
-Wire Wire Line
-	10850 3750 11100 3750
-Wire Wire Line
-	11600 3750 11650 3750
-Wire Wire Line
-	11100 3750 11150 3750
-Wire Wire Line
-	10850 3850 10850 3950
-Wire Wire Line
-	9000 7600 9300 7600
-Wire Wire Line
-	9000 9000 9450 9000
-Wire Wire Line
-	10700 2200 10950 2200
-Wire Wire Line
-	10150 1350 10150 1700
-Wire Wire Line
-	10400 1350 10850 1350
-Wire Wire Line
-	9400 4750 9850 4750
-Wire Wire Line
-	9850 4750 10050 4750
-Wire Wire Line
-	8800 2400 9250 2400
-Wire Wire Line
-	9250 2400 9950 2400
-Wire Wire Line
-	11350 2800 11400 2800
-Wire Wire Line
-	2450 2250 2550 2250
-Wire Wire Line
-	1350 7500 1450 7500
-Wire Wire Line
-	2300 5950 2400 5950
-Wire Wire Line
-	1450 4200 1600 4200
-Wire Wire Line
-	1350 7900 1450 7900
-Wire Wire Line
-	8150 7600 8200 7600
-Wire Wire Line
-	8550 7600 8600 7600
-Wire Wire Line
-	10850 4700 10850 4850
-Wire Wire Line
-	10850 4700 11450 4700
-Wire Wire Line
-	3450 2850 3700 2850
-Wire Wire Line
-	3700 2850 4050 2850
-Wire Wire Line
-	4050 2850 4100 2850
-Wire Wire Line
-	3300 6550 3450 6550
-Wire Wire Line
-	3450 6550 3800 6550
-Wire Wire Line
-	5250 7750 5350 7750
-Wire Wire Line
-	5250 7450 5350 7450
-Wire Wire Line
-	5950 7600 5950 7750
-Wire Wire Line
-	5050 7750 5250 7750
-Wire Wire Line
-	5050 7450 5250 7450
 $EndSCHEMATC

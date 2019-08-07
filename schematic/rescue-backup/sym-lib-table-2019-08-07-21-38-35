@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name lohpi-rescue)(type Legacy)(uri ${KIPRJMOD}/lohpi-rescue.lib)(options "")(descr ""))
+  (lib (name microchip)(type Legacy)(uri ${KIPRJMOD}/components/microchip.lib)(options "")(descr ""))
+  (lib (name semtech_parts)(type Legacy)(uri ${KIPRJMOD}/components/semtech_parts.lib)(options "")(descr ""))
+  (lib (name raspberry_pi)(type Legacy)(uri ${KIPRJMOD}/components/raspberry_pi.lib)(options "")(descr ""))
+  (lib (name epcos)(type Legacy)(uri ${KIPRJMOD}/components/epcos.lib)(options "")(descr ""))
+  (lib (name anaren)(type Legacy)(uri ${KIPRJMOD}/components/anaren.lib)(options "")(descr ""))
+  (lib (name murata)(type Legacy)(uri ${KIPRJMOD}/components/murata.lib)(options "")(descr ""))
+  (lib (name qorvo)(type Legacy)(uri ${KIPRJMOD}/components/qorvo.lib)(options "")(descr ""))
+  (lib (name abracon)(type Legacy)(uri ${KIPRJMOD}/components/abracon.lib)(options "")(descr ""))
+  (lib (name max-m8)(type Legacy)(uri ${KIPRJMOD}/components/max-m8.lib)(options "")(descr ""))
+)

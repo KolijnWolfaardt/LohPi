@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# lohpi-rescue_+1V8
+# +1V8
 #
-DEF lohpi-rescue_+1V8 #PWR 0 0 Y Y 1 F P
+DEF +1V8 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "lohpi-rescue_+1V8" 0 140 50 H V C CNN
+F1 "+1V8" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,13 +16,14 @@ X +1V8 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_+3.3V
+# +3V3
 #
-DEF lohpi-rescue_+3.3V #PWR 0 0 Y Y 1 F P
+DEF +3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "lohpi-rescue_+3.3V" 0 140 50 H V C CNN
+F1 "+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
@@ -31,11 +32,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_+5V
+# +5V
 #
-DEF lohpi-rescue_+5V #PWR 0 0 Y Y 1 F P
+DEF +5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "lohpi-rescue_+5V" 0 140 50 H V C CNN
+F1 "+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +47,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_ABRACON-OSC
+# ABRACON-OSC
 #
-DEF lohpi-rescue_ABRACON-OSC X 0 40 Y Y 1 F N
+DEF ABRACON-OSC X 0 40 Y Y 1 F N
 F0 "X" 50 250 60 H V C CNN
-F1 "lohpi-rescue_ABRACON-OSC" 0 -250 60 H V C CNN
+F1 "ABRACON-OSC" 0 -250 60 H V C CNN
 F2 "" 0 50 60 H I C CNN
 F3 "" 0 50 60 H I C CNN
 $FPLIST
@@ -65,11 +66,11 @@ X Vdd 4 -550 100 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_Anaren_B0430J50100AHF
+# Anaren_B0430J50100AHF
 #
-DEF lohpi-rescue_Anaren_B0430J50100AHF U 0 40 Y Y 1 F N
+DEF Anaren_B0430J50100AHF U 0 40 Y Y 1 F N
 F0 "U" 0 -150 60 H V C CNN
-F1 "lohpi-rescue_Anaren_B0430J50100AHF" 0 300 60 H V C CNN
+F1 "Anaren_B0430J50100AHF" 0 300 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -83,11 +84,11 @@ X Bal 6 400 150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_C
+# C
 #
-DEF lohpi-rescue_C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "lohpi-rescue_C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -101,11 +102,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_CONN_01X01
+# CONN_01X01
 #
-DEF lohpi-rescue_CONN_01X01 J 0 40 Y N 1 F N
+DEF CONN_01X01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "lohpi-rescue_CONN_01X01" 100 0 50 V V C CNN
+F1 "CONN_01X01" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -121,11 +122,11 @@ X P1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_CONN_01X02-RESCUE-lohpi
+# CONN_01X02-RESCUE-lohpi
 #
-DEF lohpi-rescue_CONN_01X02-RESCUE-lohpi J 0 40 Y N 1 F N
+DEF CONN_01X02-RESCUE-lohpi J 0 40 Y N 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "lohpi-rescue_CONN_01X02-RESCUE-lohpi" 100 0 50 V V C CNN
+F1 "CONN_01X02-RESCUE-lohpi" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -143,11 +144,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_Conn_01x02
+# Conn_01x02
 #
-DEF lohpi-rescue_Conn_01x02 J 0 40 Y N 1 F N
+DEF Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "lohpi-rescue_Conn_01x02" 0 -200 50 H V C CNN
+F1 "Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -167,11 +168,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_GND
+# GND
 #
-DEF lohpi-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "lohpi-rescue_GND" 0 -150 50 H V C CNN
+F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -180,11 +181,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_L
+# L
 #
-DEF lohpi-rescue_L L 0 40 N N 1 F N
+DEF L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "lohpi-rescue_L" 75 0 50 V V C CNN
+F1 "L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -203,11 +204,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_LED
+# LED
 #
-DEF lohpi-rescue_LED D 0 40 Y N 1 F N
+DEF LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "lohpi-rescue_LED" 0 -100 50 H V C CNN
+F1 "LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -224,11 +225,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_MAX-M8
+# MAX-M8
 #
-DEF lohpi-rescue_MAX-M8 U 0 40 Y Y 1 F N
+DEF MAX-M8 U 0 40 Y Y 1 F N
 F0 "U" 0 -600 60 H V C CNN
-F1 "lohpi-rescue_MAX-M8" -50 500 60 H V C CNN
+F1 "MAX-M8" -50 500 60 H V C CNN
 F2 "" 300 -300 60 H I C CNN
 F3 "" 300 -300 60 H I C CNN
 DRAW
@@ -254,11 +255,11 @@ X Reset_N 9 -600 -450 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_MCP1612
+# MCP1612
 #
-DEF lohpi-rescue_MCP1612 U 0 40 Y Y 1 F N
+DEF MCP1612 U 0 40 Y Y 1 F N
 F0 "U" 150 -300 60 H V C CNN
-F1 "lohpi-rescue_MCP1612" -50 350 60 H V C CNN
+F1 "MCP1612" -50 350 60 H V C CNN
 F2 "" 50 0 60 H I C CNN
 F3 "" 50 0 60 H I C CNN
 $FPLIST
@@ -277,11 +278,11 @@ X Lx 8 500 150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_MCP1726-3302E_SN
+# MCP1726-3302E/SN
 #
-DEF lohpi-rescue_MCP1726-3302E_SN U 0 40 Y Y 1 F N
+DEF MCP1726-3302E/SN U 0 40 Y Y 1 F N
 F0 "U" 50 -300 60 H V C CNN
-F1 "lohpi-rescue_MCP1726-3302E_SN" 0 300 60 H V C CNN
+F1 "MCP1726-3302E/SN" 0 300 60 H V C CNN
 F2 "" -50 0 60 H I C CNN
 F3 "" -50 0 60 H I C CNN
 $FPLIST
@@ -301,11 +302,11 @@ X Vout 8 550 150 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_MCP1824
+# MCP1824
 #
-DEF lohpi-rescue_MCP1824 U 0 40 Y Y 1 F N
+DEF MCP1824 U 0 40 Y Y 1 F N
 F0 "U" 200 -300 60 H V C CNN
-F1 "lohpi-rescue_MCP1824" 0 250 60 H V C CNN
+F1 "MCP1824" 0 250 60 H V C CNN
 F2 "" -100 -150 60 H I C CNN
 F3 "" -100 -150 60 H I C CNN
 $FPLIST
@@ -321,11 +322,11 @@ X Vout 5 500 100 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_MurataSF2314E
+# MurataSF2314E
 #
-DEF lohpi-rescue_MurataSF2314E U 0 40 Y Y 1 F N
+DEF MurataSF2314E U 0 40 Y Y 1 F N
 F0 "U" 0 -250 60 H V C CNN
-F1 "lohpi-rescue_MurataSF2314E" 0 250 60 H V C CNN
+F1 "MurataSF2314E" 0 250 60 H V C CNN
 F2 "" 250 0 60 H I C CNN
 F3 "" 250 0 60 H I C CNN
 DRAW
@@ -339,11 +340,11 @@ X Gnd 6 450 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_Q_PMOS_GSD
+# Q_PMOS_GSD
 #
-DEF lohpi-rescue_Q_PMOS_GSD Q 0 0 Y N 1 F N
+DEF Q_PMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "lohpi-rescue_Q_PMOS_GSD" 200 -50 50 H V L CNN
+F1 "Q_PMOS_GSD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -371,11 +372,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_R
+# R
 #
-DEF lohpi-rescue_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "lohpi-rescue_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -389,11 +390,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_RFPA0133TR7
+# RFPA0133TR7
 #
-DEF lohpi-rescue_RFPA0133TR7 U 0 40 Y Y 1 F N
+DEF RFPA0133TR7 U 0 40 Y Y 1 F N
 F0 "U" 400 -550 60 H V C CNN
-F1 "lohpi-rescue_RFPA0133TR7" -550 -550 60 H V C CNN
+F1 "RFPA0133TR7" -550 -550 60 H V C CNN
 F2 "" 450 -400 60 H I C CNN
 F3 "" 450 -400 60 H I C CNN
 DRAW
@@ -419,11 +420,11 @@ X RF_OUT/VCC2 9 650 -150 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_RFSW1012
+# RFSW1012
 #
-DEF lohpi-rescue_RFSW1012 U 0 40 Y Y 1 F N
+DEF RFSW1012 U 0 40 Y Y 1 F N
 F0 "U" 300 -400 60 H V C CNN
-F1 "lohpi-rescue_RFSW1012" -400 -400 60 H V C CNN
+F1 "RFSW1012" -400 -400 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -445,11 +446,11 @@ X Vdd 9 550 100 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_SPF5043Z
+# SPF5043Z
 #
-DEF lohpi-rescue_SPF5043Z U 0 40 Y Y 1 F N
+DEF SPF5043Z U 0 40 Y Y 1 F N
 F0 "U" 150 -300 60 H V C CNN
-F1 "lohpi-rescue_SPF5043Z" -50 300 60 H V C CNN
+F1 "SPF5043Z" -50 300 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -462,11 +463,11 @@ X Gnd 4 500 100 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_SX1257
+# SX1257
 #
-DEF lohpi-rescue_SX1257 U 0 40 Y Y 1 F N
+DEF SX1257 U 0 40 Y Y 1 F N
 F0 "U" -450 350 60 H V C CNN
-F1 "lohpi-rescue_SX1257" -450 450 60 H V C CNN
+F1 "SX1257" -450 450 60 H V C CNN
 F2 "" -450 450 60 H I C CNN
 F3 "" -450 450 60 H I C CNN
 $FPLIST
@@ -511,11 +512,11 @@ X Reset 9 -800 -650 200 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_SX1301
+# SX1301
 #
-DEF lohpi-rescue_SX1301 U 0 40 Y Y 1 F N
+DEF SX1301 U 0 40 Y Y 1 F N
 F0 "U" 0 -50 60 H V C CNN
-F1 "lohpi-rescue_SX1301" 0 150 60 H V C CNN
+F1 "SX1301" 0 150 60 H V C CNN
 F2 "" 150 50 60 H I C CNN
 F3 "" 150 50 60 H I C CNN
 $FPLIST
@@ -592,11 +593,11 @@ X GPS_IN 9 -1450 -50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# lohpi-rescue_raspberry_pi_3_header
+# raspberry_pi_3_header
 #
-DEF lohpi-rescue_raspberry_pi_3_header U 0 40 Y Y 1 F N
+DEF raspberry_pi_3_header U 0 40 Y Y 1 F N
 F0 "U" -50 1150 60 H V C CNN
-F1 "lohpi-rescue_raspberry_pi_3_header" 0 -1250 60 H V C CNN
+F1 "raspberry_pi_3_header" 0 -1250 60 H V C CNN
 F2 "" -350 200 60 H I C CNN
 F3 "" -350 200 60 H I C CNN
 DRAW

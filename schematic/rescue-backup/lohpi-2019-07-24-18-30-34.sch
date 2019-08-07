@@ -1,4 +1,36 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 3
+LIBS:lohpi-rescue
+LIBS:power
+LIBS:device
+LIBS:linear
+LIBS:regul
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:semtech_parts
+LIBS:raspberry_pi
+LIBS:epcos
+LIBS:anaren
+LIBS:murata
+LIBS:qorvo
+LIBS:abracon
+LIBS:max-m8
 LIBS:lohpi-cache
 EELAYER 26 0
 EELAYER END
@@ -108,11 +140,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 950  7200 950 
 Wire Wire Line
-	3500 1250 4100 1250
+	3500 1250 7200 1250
 Wire Wire Line
-	3500 1350 4200 1350
+	3500 1350 7200 1350
 Wire Wire Line
-	3500 1150 4000 1150
+	3500 1150 7200 1150
 Wire Wire Line
 	3500 1850 7200 1850
 Wire Wire Line
@@ -175,7 +207,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 5400 4600 5400
 $Comp
-L lohpi-rescue:CONN_01X01 J10
+L CONN_01X01 J10
 U 1 1 59B4EB9A
 P 1750 6600
 F 0 "J10" H 1828 6641 50  0000 L CNN
@@ -186,7 +218,7 @@ F 3 "" H 1750 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:CONN_01X01 J11
+L CONN_01X01 J11
 U 1 1 59B4F0CE
 P 1750 6800
 F 0 "J11" H 1828 6841 50  0000 L CNN
@@ -197,7 +229,7 @@ F 3 "" H 1750 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:CONN_01X01 J12
+L CONN_01X01 J12
 U 1 1 59B4F26C
 P 1750 7000
 F 0 "J12" H 1828 7041 50  0000 L CNN
@@ -208,7 +240,7 @@ F 3 "" H 1750 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lohpi-rescue:CONN_01X01 J13
+L CONN_01X01 J13
 U 1 1 59B4F40C
 P 1750 7200
 F 0 "J13" H 1828 7241 50  0000 L CNN
@@ -224,10 +256,4 @@ NoConn ~ 1550 6600
 NoConn ~ 1550 6800
 NoConn ~ 1550 7000
 NoConn ~ 1550 7200
-Wire Wire Line
-	4200 1350 7200 1350
-Wire Wire Line
-	4100 1250 7200 1250
-Wire Wire Line
-	4000 1150 7200 1150
 $EndSCHEMATC
